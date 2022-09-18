@@ -11,7 +11,7 @@
         service:
             name: docker
             state: restarted
-            enable: yes
+            enabled: yes
 
       - name: stopping container
         shell: docker stop  myfirstappcont
